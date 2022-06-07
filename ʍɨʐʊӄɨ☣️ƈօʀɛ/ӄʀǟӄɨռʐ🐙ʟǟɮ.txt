@@ -1,0 +1,7 @@
+cprint
+loguru
+psutil
+autopep8
+pyAesCrypt
+termcolor
+python-dotenv
