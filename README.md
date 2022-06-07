@@ -3,13 +3,12 @@
 <img align="left"  height="50" src="https://i.postimg.cc/sDPF83Mx/Mizuki-Error.png">
 <img align="right"  height="50" src="https://i.postimg.cc/3wGtxscV/Mem-Err.png">
 
-### 🍁𝓜𝖎𝖟𝖚ӄ𝖎™ △▽ 𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 - _BETA_
+### 🍁Mizuky △▽ 𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 - _BETA_
 
 <img align="left"  height="200" src="https://i.postimg.cc/3R4w1KDw/image.gif">
-<img align="centre"  height="200" src="https://i.postimg.cc/3R4w1KDw/image.gif">
 
 ʏᴏᴜʀ ᴀꜱꜱɪꜱꜱᴛᴀɴᴛ ꜰᴏʀ ᴍᴀᴋɪɴɢ ʙᴏʀɪɴɢ ᴡʜᴀᴛꜱᴀᴘᴘ ᴀ ʙᴇᴛᴛᴇʀ ᴀᴅᴠᴀɴᴄᴇ ᴀᴘᴘ!
-🔸[`ᴡʜᴀᴛꜱᴀᴘᴘ`](https://chat.whatsapp.com/KC32fr1BLmzHYgToZjMuHn) 🔸[`ᴅɪꜱᴄᴏʀᴅ`](https://discord.gg/xcFN6NDHEV)
+🔸[`ᴡʜᴀᴛꜱᴀᴘᴘ`](https://chat.whatsapp.com/J7CHUQ2WZbZ61tZTzJOjXY) 🔸[`ᴅɪꜱᴄᴏʀᴅ`](https://discord.gg/xcFN6NDHEV)
 
 ### ❓ 𝖂𝖍𝖞 𝕸𝖆𝖉𝖊 𝕿𝖍𝖎𝖘 𝕭𝖔𝖙?
 ### [krakinz](github.com/krakinz)
@@ -40,6 +39,5 @@ Apache License Version 2.0, January 2004 http://www.apache.org/licenses
 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐂) 𝟐𝟎𝟐𝟏 𝗞𝗿𝗮𝗸𝗶𝗻𝘇 | 𝗞𝗿𝗮𝗸𝗶𝗻𝘇𝗟𝗮𝗯 | 𝗞𝗿𝗮𝗸𝗶𝗻𝘇𝗕𝗼𝘁
 ```
 
-<img align="centre" src="https://i.postimg.cc/sDXbg5xF/image.png">
 
-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/red-alison/Mee6.git/tree/KrakinzLab) - On Your Own! 
+- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/krakinz/Mizuky.git) - On Your Own! 
