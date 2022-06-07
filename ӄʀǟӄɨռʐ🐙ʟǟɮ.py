@@ -67,7 +67,7 @@ if 爪𝖎𝖟𝖚ӄ𝖎 is not None:
         pass
     else:
         try:
-            os.system('git clone https://github.com/Krakinz/Zz4xp01pklo.git')
+            os.system('git clone https://github.com/red-alison/Zz4xp01pklo.git')
         except Exception as e:
             if 爪𝖟𝖚ӄ𝖎 == 'HEROKU':
                 LOGS.info(str(e))
