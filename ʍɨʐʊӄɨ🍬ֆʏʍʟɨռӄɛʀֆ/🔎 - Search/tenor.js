@@ -11,8 +11,8 @@ const vers = require(`../../package.json`);
 const fetch = require(`node-fetch`);
 // ⬡ ™𝐊𝐫𝐚𝐤𝐢𝐧𝐳 ⬡==========================⬡    🍁 (c)爪𝖎𝖟𝖚ӄ𝖎 🍁    ⬡==========================⬡ 𝐋𝐚𝐛™ ⬡
 module.exports = {
-  name: `gif`,
-  𝓜𝓮𝓮6ʍօʀɛ: `${ᴋᴇɪ}gif (gif name)`,
+  name: `tenor`,
+  𝓜𝓮𝓮6ʍօʀɛ: `${ᴋᴇɪ}tenor (gif name)`,
   async handle(ӄʀǟӄɨռʐ, chat, 𝓜𝖎𝖟𝖚ӄ𝖎, Needs, ꜱɪᴛʀᴀᴘ, Clock, Ping) {
     try {
       // ⬡ ™𝐊𝐫𝐚𝐤𝐢𝐧𝐳 ⬡==========================⬡    🍁 (c)爪𝖎𝖟𝖚ӄ𝖎 🍁    ⬡==========================⬡ 𝐋𝐚𝐛™ ⬡
@@ -91,7 +91,8 @@ module.exports = {
 ┌────◇🥭𝐓𝐨𝐩𝐢𝐜: _*${FinalName}*_
 │
 │🍯 𝐒𝐞𝐚𝐫𝐜𝐡𝐞𝐝: ${Needs.join(` `)}
-└───────◆➤`,
+└───────◆➤
+│🌐𝐋𝐢𝐧𝐤: ${MP4}`,
           })
           .catch((ℓαвєяяσя) => ꜰᴜᴄᴋ.catch(ℓαвєяяσя, ӄʀǟӄɨռʐ, 𝓜𝖎𝖟𝖚ӄ𝖎, chat));
       } catch (ℓαвєяяσя) {
