@@ -12,7 +12,7 @@
 
 ### ❓ 𝖂𝖍𝖞 𝕸𝖆𝖉𝖊 𝕿𝖍𝖎𝖘 𝕭𝖔𝖙?
 ### [krakinz](github.com/krakinz)
-Get your session code here on [repl.it/Mee6](https://replit.com/@Krakinz/Mee6?v=1)
+Get your [![QR CODE](https://img.shields.io/badge/Mee6%20QR-Code-1f425f.svg)](https://replit.com/@Krakinz/Mee6?v=1)
 
 ```sh
 💻 𝗪𝗵𝗮𝘁 𝗖𝗮𝗻 𝗕𝗼𝘁 𝗗𝗼???
