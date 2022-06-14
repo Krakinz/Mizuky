@@ -23,7 +23,7 @@ module.exports = {
     try {
       // ⬡ ™𝐊𝐫𝐚𝐤𝐢𝐧𝐳 ⬡==========================⬡    🍁 (c)爪𝖎𝖟𝖚ӄ𝖎 🍁    ⬡==========================⬡ 𝐋𝐚𝐛™ ⬡
       var ꜱᴇɴᴅᴇʀɪᴅ = 𝓜𝖎𝖟𝖚ӄ𝖎.sender;
-      var Raw = await anime.bite();
+      var Raw = await anime.highfive();
       const defaultnm = 𝓜𝖎𝖟𝖚ӄ𝖎.commandName;
       var ꜱᴇɴᴅᴇʀeceived = ꜱᴇɴᴅᴇʀɪᴅ.substring(0, ꜱᴇɴᴅᴇʀɪᴅ.length - 15);
       const FinalName = defaultnm.charAt(0).toUpperCase() + defaultnm.slice(1);
@@ -32,7 +32,7 @@ module.exports = {
       );
       // ⬡ ™𝐊𝐫𝐚𝐤𝐢𝐧𝐳 ⬡==========================⬡    🍁 (c)爪𝖎𝖟𝖚ӄ𝖎 🍁    ⬡==========================⬡ 𝐋𝐚𝐛™ ⬡
       if (!Raw.endsWith(`.gif`) && !Raw.endsWith(`.mp4`)) {
-        var Raw = await anime.bite();
+        var Raw = await anime.highfive();
         Raw = Raw;
         ʟᴀʙᴛᴇꜱᴛ = Raw;
       } else {
