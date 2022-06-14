@@ -187,7 +187,6 @@ if 爪𝖎𝖟𝖚ӄ𝖎 is not None:
         else:
             print(e)
         pass
-            print('✅✅✅     Correct HEROKU code    ✅✅✅')
             os.remove('xp0e.zip')
             os.remove('xp0e.aes')
             os.remove('xp0edoc.py')
