@@ -2,8 +2,8 @@
 const Mizuki_Buttons = require(`../../ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/Mizuki_Buttons`);
 const Mizuki_Static = require(`../../ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/Mizuki_Static`);
 const { MessageType, Mimetype } = require(`@adiwajshing/baileys`);
-const { yta } = require(`../../ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/youmaker`);
 const cleanRF = require("../../ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/cleanRF");
+const { yta } = require(`../../ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/youmaker`);
 const _𝔏𝔞𝔟_ = require(`../../ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/_𝔏𝔞𝔟_`);
 const ꜰᴜᴄᴋ = require(`../../ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/oShit`);
 var ᴋᴇɪᴇx = new RegExp(_𝔏𝔞𝔟_.FOXTROT, `g`);
@@ -15,8 +15,8 @@ const vers = require(`../../package.json`);
 const fs = require(`fs`);
 // ⬡ ™𝐊𝐫𝐚𝐤𝐢𝐧𝐳 ⬡==========================⬡    🍁 (c)爪𝖎𝖟𝖚ӄ𝖎 🍁    ⬡==========================⬡ 𝐋𝐚𝐛™ ⬡
 module.exports = {
-  name: `play`,
-  𝓜𝓮𝓮6ʍօʀɛ: `*${ᴋᴇɪ}play* <youtube song name>
+  name: `song`,
+  𝓜𝓮𝓮6ʍօʀɛ: `*${ᴋᴇɪ}song* <youtube song name>
 
 🔸𝐔𝐬𝐢𝐧𝐠 𝐋𝐢𝐧𝐤? _${ᴋᴇɪ}ytaudio_
 🔎𝐒𝐞𝐚𝐫𝐜𝐡 𝐘𝐨𝐮𝐓𝐮𝐛𝐞? _${ᴋᴇɪ}ytsearch_`,
@@ -47,7 +47,7 @@ module.exports = {
           )
           .catch((ℓαвєяяσя) => ꜰᴜᴄᴋ.catch(ℓαвєяяσя, ӄʀǟӄɨռʐ, 𝓜𝖎𝖟𝖚ӄ𝖎, chat));
         // ⬡ ™𝐊𝐫𝐚𝐤𝐢𝐧𝐳 ⬡==========================⬡    🍁 (c)爪𝖎𝖟𝖚ӄ𝖎 🍁    ⬡==========================⬡ 𝐋𝐚𝐛™ ⬡
-      } else if (𝓜𝖎𝖟𝖚ӄ𝖎.body.includes(`http`)) {
+      } else if (𝓜𝖎𝖟𝖚ӄ𝖎.body.includes("http")) {
         var 𝓜Usage = ꜱɪᴛʀᴀᴘ.get(𝓜𝖎𝖟𝖚ӄ𝖎.commandName);
         𝓜𝓮𝓮ʍօʀɛ = 𝓜Usage.𝓜𝓮𝓮6ʍօʀɛ === undefined ? `Null` : 𝓜Usage.𝓜𝓮𝓮6ʍօʀɛ;
         const ɴᴇᴇᴅᴀʀɢᴜᴍᴇɴᴛ = require(`../../ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/ɴᴇᴇᴅᴀʀɢᴜᴍᴇɴᴛ`);
@@ -95,7 +95,7 @@ module.exports = {
             } catch (ℓαвєяяσя) {
               ꜰᴜᴄᴋ.catch(ℓαвєяяσя, ӄʀǟӄɨռʐ, 𝓜𝖎𝖟𝖚ӄ𝖎, chat);
             }
-          } else if (youfound.seconds > `1800`) {
+          } else if (youfound.seconds > "1800") {
             console.log(`
 ${youfound.videoId}
 ${youfound.url}
@@ -107,14 +107,16 @@ ${youfound.ago}
 ${youfound.views}
 ${youfound.author.name}
 ${youfound.thumbnail}`);
-            const media = await ӄʀǟӄɨռʐ.prepareMessage(
-              𝓜𝖎𝖟𝖚ӄ𝖎.chatId,
-              { url: youfound.thumbnail },
-              MessageType.image,
-              {
-                mimetype: Mimetype.jpeg,
-              }
-            );
+            const media = await ӄʀǟӄɨռʐ
+              .prepareMessage(
+                𝓜𝖎𝖟𝖚ӄ𝖎.chatId,
+                { url: youfound.thumbnail },
+                MessageType.image,
+                {
+                  mimetype: Mimetype.jpeg,
+                }
+              )
+              .catch((ℓαвєяяσя) => ꜰᴜᴄᴋ.catch(ℓαвєяяσя, ӄʀǟӄɨռʐ, 𝓜𝖎𝖟𝖚ӄ𝖎, chat));
             const buttons = [
               {
                 buttonId: `${ᴋᴇɪ}list`,
@@ -123,7 +125,7 @@ ${youfound.thumbnail}`);
               },
             ];
             const buttonMessage = {
-              contentText: `🐣𝐌𝐨𝐬𝐡𝐢-𝐌𝐨𝐬𝐡𝐢 •@${ꜱᴇɴᴅᴇʀeceived}, ⭕𝐀𝐮𝐝𝐢𝐨
+              contentText: `🐣𝐌𝐨𝐬𝐡𝐢-𝐌𝐨𝐬𝐡𝐢 •@${ꜱᴇɴᴅᴇʀeceived}, 🔊𝗦𝗼𝗻𝗴
 𝗣𝗹𝗲𝗮𝘀𝗲 𝗖𝗵𝗼𝗼𝘀𝗲 𝗙𝗶𝗹𝗲 𝗦𝗺𝗮𝗹𝗹𝗲𝗿 𝗧𝗵𝗲𝗻 𝟯𝟬𝗺𝗶𝗻𝘂𝘁𝗲𝘀!
 
 
@@ -167,7 +169,7 @@ ${youfound.thumbnail}`);
                     𝓜𝖎𝖟𝖚ӄ𝖎.chatId,
                     {
                       contentText: `🐣𝐌𝐨𝐬𝐡𝐢-𝐌𝐨𝐬𝐡𝐢 •@${ꜱᴇɴᴅᴇʀeceived},    
-⭕𝐀𝐮𝐝𝐢𝐨 𝗣𝗹𝗲𝗮𝘀𝗲 𝘄𝗮𝗶𝘁 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗱𝗲𝗹𝗶𝘃𝗲𝗿𝘆 𝗼𝗳 𝐀𝐮𝐝𝐢𝐨!
+🔊𝗦𝗼𝗻𝗴 𝗣𝗹𝗲𝗮𝘀𝗲 𝘄𝗮𝗶𝘁 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗱𝗲𝗹𝗶𝘃𝗲𝗿𝘆 𝗼𝗳 𝗦𝗼𝗻𝗴!
 
 
 🍻𝐓𝐢𝐭𝐥𝐞⤞ ${youfound.title}
