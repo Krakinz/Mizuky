@@ -1,9 +1,7 @@
 import logging
 from loguru import *
 from zipfile import ZipFile
-import pyAesCrypt as ӄʀǟӄɨռʐr
 from termcolor import *
-import shutil
 from datetime import *
 from os import getenv
 import os
