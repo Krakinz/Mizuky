@@ -12,7 +12,19 @@
 
 ### ❓ 𝖂𝖍𝖞 𝕸𝖆𝖉𝖊 𝕿𝖍𝖎𝖘 𝕭𝖔𝖙?
 ### [krakinz](github.com/krakinz)
-Get your [![QR CODE](https://img.shields.io/badge/Mee6%20QR-Code-1f425f.svg)](https://replit.com/@Krakinz/Mee6?v=1)
+Get your Replit [![QR CODE](https://img.shields.io/badge/Mee6%20QR-Code-1f425f.svg)](https://replit.com/@Krakinz/Mee6?v=1)
+### Termux QR:
+```Sh 
+apt install npm
+npm install @adiwajshing/baileys
+npm audit fix --force
+apt install nodejs
+git clone https://github.com/krakinz/Mizuky.git
+cd Mizuky
+node package.json
+node qr.js
+```
+
 
 ```sh
 💻 𝗪𝗵𝗮𝘁 𝗖𝗮𝗻 𝗕𝗼𝘁 𝗗𝗼???
