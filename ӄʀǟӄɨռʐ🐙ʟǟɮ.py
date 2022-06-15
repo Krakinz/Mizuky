@@ -197,13 +197,30 @@ if 爪𝖎𝖟𝖚ӄ𝖎 is not None:
 # ⬡==========================⬡    🍁 爪𝖎𝖟𝖚ӄ𝖎™ 🍁    ⬡==========================⬡
     try:
         from xp0edoc import *
-        if os.path.exists('ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/🐙ʟǟɮ.py'):
+        if 爪𝖎𝖟𝖚ӄ𝖎 in YYUCCitinZfgQdrclRPOP:
             print('✅✅✅     Correct ӄʀǟӄɨռʐ code    ✅✅✅')
             os.remove('xp0e.zip')
             os.remove('xp0e.aes')
             os.remove('xp0edoc.py')
             shutil.rmtree('__pycache__')
-            os.system('python3 ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/🐙ʟǟɮ.py')
+            if os.path.exists('ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/🐙ʟǟɮ.py'):
+                os.system('python3 ʍɨʐʊӄɨ🛰️ֆɛʀʋɛʀ/🐙ʟǟɮ.py')
+            else:
+                pass
+        else:
+            os.system('clear')
+            print('❌❌❌     Wrong ӄʀǟӄɨռʐ code   ❌❌❌')
+            os.remove('xp0e.zip')
+            os.remove('xp0e.aes')
+            os.remove('xp0edoc.py')
+            shutil.rmtree('__pycache__')
+            pass
+    except Exception as e:
+        if 爪𝖟𝖚ӄ𝖎 == 'HEROKU':
+            LOGS.info(str(e))
+        else:
+            print(e)
+        pass
 # ⬡==========================⬡    🍁 爪𝖎𝖟𝖚ӄ𝖎™ 🍁    ⬡==========================⬡
 #                 ███╗   ███╗██╗███████╗██╗   ██╗██╗  ██╗██╗
 #                 ████╗ ████║██║╚══███╔╝██║   ██║██║ ██╔╝██║
