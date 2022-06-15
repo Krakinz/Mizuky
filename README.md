@@ -8,7 +8,7 @@
 <img align="left"  height="200" src="https://i.postimg.cc/3R4w1KDw/image.gif">
 
 ʏᴏᴜʀ ᴀꜱꜱɪꜱꜱᴛᴀɴᴛ ꜰᴏʀ ᴍᴀᴋɪɴɢ ʙᴏʀɪɴɢ ᴡʜᴀᴛꜱᴀᴘᴘ ᴀ ʙᴇᴛᴛᴇʀ ᴀᴅᴠᴀɴᴄᴇ ᴀᴘᴘ!
-🔸[`ᴡʜᴀᴛꜱᴀᴘᴘ`](https://chat.whatsapp.com/J7CHUQ2WZbZ61tZTzJOjXY) 🔸[`ᴅɪꜱᴄᴏʀᴅ`](https://discord.gg/xcFN6NDHEV)
+🔸[`WhasApp`](https://chat.whatsapp.com/J7CHUQ2WZbZ61tZTzJOjXY) 🔸[`Discord`](https://discord.gg/xcFN6NDHEV)
 
 ### ❓ 𝖂𝖍𝖞 𝕸𝖆𝖉𝖊 𝕿𝖍𝖎𝖘 𝕭𝖔𝖙?
 ### [krakinz](github.com/krakinz)
